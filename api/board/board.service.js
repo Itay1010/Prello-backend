@@ -2,14 +2,10 @@ const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
 
-async function query(filterBy) {
-    const PAGE = 4
+async function query() {
     try {
-        const criteria = _buildCriteria(filterBy)
-        const pageSkip = filterBy.page - 1 === 0 ? 0 : (+filterBy.page - 1) * PAGE
         const collection = await dbService.getCollection('board')
-        // const boards = await collection.find(criteria).skip(pageSkip).limit(PAGE).toArray()
-        const boards = await collection.find(criteria).toArray()
+        const boards = await collection.find({}).toArray()
         const boardMinis = boards.map(board => {
             return { _id: board._id, title: board.title, createdBy: { ...board.createdBy }, style: board.style }
         })
@@ -45,8 +41,8 @@ async function remove(boardId) {
 async function add(board) {
     try {
         const collection = await dbService.getCollection('board')
-        const addedCar = await collection.insertOne(board)
-        return addedCar
+        const addedBoard = await collection.insertOne(board)
+        return addedBoard
     } catch (err) {
         logger.error('cannot insert board', err)
         throw err
@@ -54,7 +50,7 @@ async function add(board) {
 }
 async function update(board) {
     try {
-        var id = ObjectId(board._id)
+        const id = ObjectId(board._id)
         delete board._id
         const collection = await dbService.getCollection('board')
         await collection.updateOne({ _id: id }, { $set: { ...board } })
@@ -75,9 +71,9 @@ function _buildCriteria({ txt, label, page = 1 }) {
 }
 
 module.exports = {
-    remove,
     query,
     getById,
+    remove,
     add,
     update,
 }

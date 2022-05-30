@@ -3,6 +3,7 @@ const logger = require('../../services/logger.service')
 
 // GET LIST
 async function getBoards(req, res) {
+  console.log('getboards');
   try {
     logger.debug('Getting Boards')
     var queryParams = req.query

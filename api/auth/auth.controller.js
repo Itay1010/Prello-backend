@@ -4,6 +4,7 @@ const cookieParser = require('cookie-parser')
 
 
 async function login(req, res) {
+    
     const { username, password } = req.body
     try {
         const user = await authService.login(username, password)
@@ -20,17 +21,17 @@ async function login(req, res) {
 }
 
 async function signup(req, res) {
+    console.log('sign up');
     try {
-        const { username, password, fullname } = req.body
+        const { username, password, firstName, lastName, color, email, googleId = '' } = req.body
         // Never log passwords
         // logger.debug(fullname + ', ' + username + ', ' + password)
-        const account = await authService.signup(username, password, fullname)
+        const account = await authService.signup(username, password, firstName, lastName, color, email, googleId)
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
-        const user = await authService.login(username, password)
+        const user = await authService.login(email, password)
         const loginToken = authService.getLoginToken(user)
         logger.info('User login: ', user)
         res.cookie('loginToken', loginToken)
-
         res.json(user)
     } catch (err) {
         logger.error('Failed to signup ' + err)
