@@ -296,3 +296,12 @@
 31/05/2022, 0:53:37 - ERROR - Failed to get board | {}
 31/05/2022, 0:53:49 - ERROR - while finding board b101 | {}
 31/05/2022, 0:53:49 - ERROR - Failed to get board | {}
+31/05/2022, 1:13:03 - INFO - Server is running on port: 3030
+31/05/2022, 1:13:24 - INFO - Server is running on port: 3030
+31/05/2022, 1:19:12 - ERROR - while finding board b101 | {}
+31/05/2022, 1:19:12 - ERROR - Failed to get board | {}
+31/05/2022, 1:20:14 - ERROR - while finding board b101 | {}
+31/05/2022, 1:20:14 - ERROR - Failed to get board | {}
+31/05/2022, 1:20:38 - ERROR - while finding board b101 | {}
+31/05/2022, 1:20:38 - ERROR - Failed to get board | {}
+31/05/2022, 1:22:52 - INFO - Server is running on port: 3030
