@@ -1,0 +1,135 @@
+30/05/2022, 13:36:42 - INFO - Server is running on port: 3030
+30/05/2022, 13:36:55 - INFO - Server is running on port: 3030
+30/05/2022, 13:36:58 - INFO - Req was made
+30/05/2022, 13:36:58 - DEBUG - Getting Boards
+30/05/2022, 13:37:44 - INFO - Server is running on port: 3030
+30/05/2022, 13:38:43 - INFO - Server is running on port: 3030
+30/05/2022, 13:38:45 - INFO - Server is running on port: 3030
+30/05/2022, 13:39:02 - INFO - Server is running on port: 3030
+30/05/2022, 13:39:03 - DEBUG - requireAuth - loggedinUser | {}
+30/05/2022, 13:39:42 - INFO - Server is running on port: 3030
+30/05/2022, 13:46:57 - INFO - Server is running on port: 3030
+30/05/2022, 15:11:08 - INFO - Server is running on port: 3030
+30/05/2022, 15:21:15 - INFO - Server is running on port: 3030
+30/05/2022, 15:23:42 - INFO - Req was made
+30/05/2022, 15:23:42 - DEBUG - Getting Boards
+30/05/2022, 15:23:50 - INFO - Req was made
+30/05/2022, 15:23:50 - DEBUG - Getting Boards
+30/05/2022, 15:24:24 - INFO - Server is running on port: 3030
+30/05/2022, 15:24:25 - INFO - Req was made
+30/05/2022, 15:24:25 - DEBUG - Getting Boards
+30/05/2022, 15:24:47 - INFO - Server is running on port: 3030
+30/05/2022, 15:24:48 - INFO - Req was made
+30/05/2022, 15:24:48 - DEBUG - Getting Boards
+30/05/2022, 15:25:50 - INFO - Server is running on port: 3030
+30/05/2022, 15:25:51 - INFO - Req was made
+30/05/2022, 15:25:51 - DEBUG - Getting Boards
+30/05/2022, 15:26:07 - INFO - Server is running on port: 3030
+30/05/2022, 15:26:09 - INFO - Req was made
+30/05/2022, 15:26:09 - DEBUG - Getting Boards
+30/05/2022, 15:26:17 - INFO - Server is running on port: 3030
+30/05/2022, 15:26:19 - INFO - Req was made
+30/05/2022, 15:26:19 - DEBUG - Getting Boards
+30/05/2022, 15:26:42 - INFO - Server is running on port: 3030
+30/05/2022, 15:26:44 - INFO - Req was made
+30/05/2022, 15:26:44 - DEBUG - Getting Boards
+30/05/2022, 15:27:07 - INFO - Req was made
+30/05/2022, 15:27:07 - DEBUG - Getting Boards
+30/05/2022, 15:27:09 - INFO - Server is running on port: 3030
+30/05/2022, 15:27:10 - INFO - Req was made
+30/05/2022, 15:27:10 - DEBUG - Getting Boards
+30/05/2022, 15:27:32 - INFO - Server is running on port: 3030
+30/05/2022, 15:27:33 - INFO - Req was made
+30/05/2022, 15:27:33 - DEBUG - Getting Boards
+30/05/2022, 15:28:23 - INFO - Req was made
+30/05/2022, 15:28:23 - DEBUG - Getting Boards
+30/05/2022, 15:28:46 - INFO - Server is running on port: 3030
+30/05/2022, 15:28:50 - INFO - Server is running on port: 3030
+30/05/2022, 15:28:52 - INFO - Req was made
+30/05/2022, 15:28:52 - DEBUG - Getting Boards
+30/05/2022, 15:29:04 - ERROR - Failed to get boards | {}
+30/05/2022, 15:29:15 - INFO - Server is running on port: 3030
+30/05/2022, 15:29:15 - INFO - Req was made
+30/05/2022, 15:29:15 - DEBUG - Getting Boards
+30/05/2022, 15:29:25 - ERROR - Failed to get boards | {}
+30/05/2022, 15:30:18 - INFO - Server is running on port: 3030
+30/05/2022, 15:30:28 - INFO - Req was made
+30/05/2022, 15:30:28 - DEBUG - Getting Boards
+30/05/2022, 15:30:37 - ERROR - Failed to get boards | {}
+30/05/2022, 15:30:45 - INFO - Server is running on port: 3030
+30/05/2022, 15:30:47 - INFO - Req was made
+30/05/2022, 15:30:47 - DEBUG - Getting Boards
+30/05/2022, 15:34:36 - INFO - Server is running on port: 3030
+30/05/2022, 15:36:55 - INFO - Server is running on port: 3030
+30/05/2022, 15:37:35 - INFO - Req was made
+30/05/2022, 15:37:35 - DEBUG - Getting Boards
+30/05/2022, 15:37:35 - ERROR - cannot find boards | {}
+30/05/2022, 15:37:35 - ERROR - Failed to get boards | {}
+30/05/2022, 15:38:26 - INFO - Server is running on port: 3030
+30/05/2022, 15:38:27 - INFO - Req was made
+30/05/2022, 15:38:27 - DEBUG - Getting Boards
+30/05/2022, 15:39:53 - INFO - Req was made
+30/05/2022, 15:39:53 - DEBUG - Getting Boards
+30/05/2022, 15:40:11 - INFO - Req was made
+30/05/2022, 15:40:11 - DEBUG - Getting Boards
+30/05/2022, 15:40:27 - INFO - Req was made
+30/05/2022, 15:40:27 - DEBUG - Getting Boards
+30/05/2022, 15:40:50 - INFO - Server is running on port: 3030
+30/05/2022, 15:40:50 - INFO - Req was made
+30/05/2022, 15:40:50 - DEBUG - Getting Boards
+30/05/2022, 15:43:17 - INFO - Server is running on port: 3030
+30/05/2022, 15:43:20 - INFO - Server is running on port: 3030
+30/05/2022, 15:43:23 - INFO - Req was made
+30/05/2022, 15:43:23 - DEBUG - Getting Boards
+30/05/2022, 15:44:55 - INFO - Server is running on port: 3030
+30/05/2022, 15:44:59 - INFO - Req was made
+30/05/2022, 15:44:59 - DEBUG - Getting Boards
+30/05/2022, 15:45:04 - INFO - Server is running on port: 3030
+30/05/2022, 15:45:15 - INFO - Server is running on port: 3030
+30/05/2022, 15:45:23 - INFO - Server is running on port: 3030
+30/05/2022, 15:45:56 - INFO - Server is running on port: 3030
+30/05/2022, 15:45:57 - INFO - Req was made
+30/05/2022, 15:45:57 - DEBUG - Getting Boards
+30/05/2022, 15:46:10 - INFO - Server is running on port: 3030
+30/05/2022, 15:46:11 - INFO - Req was made
+30/05/2022, 15:46:11 - DEBUG - Getting Boards
+30/05/2022, 15:47:43 - INFO - Server is running on port: 3030
+30/05/2022, 15:47:47 - INFO - Req was made
+30/05/2022, 15:47:47 - DEBUG - Getting Boards
+30/05/2022, 15:47:48 - ERROR - cannot find boards | {}
+30/05/2022, 15:47:48 - ERROR - Failed to get boards | {}
+30/05/2022, 15:48:00 - INFO - Server is running on port: 3030
+30/05/2022, 15:48:29 - INFO - Req was made
+30/05/2022, 15:48:29 - DEBUG - Getting Boards
+30/05/2022, 15:50:20 - INFO - Req was made
+30/05/2022, 15:50:20 - DEBUG - Getting Boards
+30/05/2022, 15:50:28 - INFO - Req was made
+30/05/2022, 15:50:28 - DEBUG - Getting Boards
+30/05/2022, 15:50:44 - INFO - Req was made
+30/05/2022, 15:50:44 - DEBUG - Getting Boards
+30/05/2022, 15:50:46 - INFO - Req was made
+30/05/2022, 15:50:46 - DEBUG - Getting Boards
+30/05/2022, 15:51:19 - INFO - Req was made
+30/05/2022, 15:51:19 - DEBUG - Getting Boards
+30/05/2022, 15:51:30 - INFO - Server is running on port: 3030
+30/05/2022, 15:51:31 - INFO - Req was made
+30/05/2022, 15:51:31 - DEBUG - Getting Boards
+30/05/2022, 15:51:42 - INFO - Server is running on port: 3030
+30/05/2022, 15:51:42 - INFO - Req was made
+30/05/2022, 15:51:42 - DEBUG - Getting Boards
+30/05/2022, 15:51:43 - ERROR - Failed to get boards | {}
+30/05/2022, 15:51:48 - INFO - Server is running on port: 3030
+30/05/2022, 15:51:49 - INFO - Req was made
+30/05/2022, 15:51:49 - DEBUG - Getting Boards
+30/05/2022, 15:53:14 - INFO - Server is running on port: 3030
+30/05/2022, 15:53:20 - INFO - Req was made
+30/05/2022, 15:53:20 - DEBUG - Getting Boards
+30/05/2022, 15:54:02 - INFO - Req was made
+30/05/2022, 15:54:02 - DEBUG - Getting Boards
+30/05/2022, 15:54:33 - INFO - Server is running on port: 3030
+30/05/2022, 15:54:38 - INFO - Req was made
+30/05/2022, 15:54:38 - DEBUG - Getting Boards
+30/05/2022, 16:22:43 - INFO - Req was made
+30/05/2022, 16:22:43 - DEBUG - Getting Boards
+30/05/2022, 17:02:24 - INFO - Req was made
+30/05/2022, 17:02:24 - DEBUG - Getting Boards
