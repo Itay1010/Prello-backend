@@ -32,8 +32,8 @@ const { setupSocketAPI } = require('./services/socket.service')
 
 
 // routes
-const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
-app.all('*', setupAsyncLocalStorage)
+// const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
+// app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/board', boardRoutes)

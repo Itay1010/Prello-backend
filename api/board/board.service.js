@@ -7,8 +7,12 @@ async function query() {
         const collection = await dbService.getCollection('board')
         const boards = await collection.find({}).toArray()
         const boardMinis = boards.map(board => {
+<<<<<<< HEAD
             console.log(board.isStarred)
             return { _id: board._id, title: board.title, createdBy: { ...board.createdBy }, style: board.style, isStarred: board.isStarred }
+=======
+            return { _id: board._id, title: board.title, createdBy: { ...board.createdBy }, isStared: board.isStared, style: board.style }
+>>>>>>> master
         })
         return boardMinis
     } catch (err) {
