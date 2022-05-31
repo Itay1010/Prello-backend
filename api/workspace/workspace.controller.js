@@ -1,4 +1,4 @@
-const boardService = require('./board.service');
+const boardService = require('../board/board.service');
 const logger = require('../../services/logger.service')
 
 // GET LIST
@@ -30,7 +30,6 @@ async function getBoardById(req, res) {
 // POST (add board)
 async function addBoard(req, res) {
   logger.debug('adding')
-  console.log(req.body)
   try {
     const board = req.body;
     const addedBoard = await boardService.add(board)
@@ -42,10 +41,13 @@ async function addBoard(req, res) {
 }
 
 // PUT (Update board)
-async function updateBoard(req, res) {
+async function updateMini(req, res) {
+  console.log('poop')
+  console.log(req.body)
   try {
     const board = req.body;
-    const updatedBoard = await boardService.update(board)
+    const updatedBoard = await boardService.updateMini(board)
+    console.log('updatedBoard', updatedBoard)
     res.json(updatedBoard)
   } catch (err) {
     logger.error('Failed to update board', err)
@@ -70,6 +72,6 @@ module.exports = {
   getBoards,
   getBoardById,
   addBoard,
-  updateBoard,
+  updateMini,
   removeBoard
 }
