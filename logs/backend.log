@@ -665,3 +665,95 @@
 5/31/2022, 4:48:10 PM - INFO - Server is running on port: 3030
 5/31/2022, 4:48:19 PM - DEBUG - adding
 5/31/2022, 5:51:07 PM - INFO - Server is running on port: 3030
+5/31/2022, 5:53:03 PM - INFO - Server is running on port: 3030
+5/31/2022, 5:53:30 PM - DEBUG - auth.service - login with email: eytan133@gmail.com
+5/31/2022, 5:53:32 PM - ERROR - Failed to Login Invalid email or password
+5/31/2022, 5:54:16 PM - DEBUG - auth.service - login with email: eytan133@gmail.com
+5/31/2022, 5:54:16 PM - ERROR - Failed to Login Invalid email or password
+5/31/2022, 5:54:25 PM - DEBUG - auth.service - login with email: eytan
+5/31/2022, 5:54:25 PM - ERROR - Failed to Login Invalid email or password
+5/31/2022, 5:59:28 PM - INFO - Server is running on port: 3030
+5/31/2022, 6:03:59 PM - DEBUG - auth.service - login with email: eytan133@gmail.com
+5/31/2022, 6:03:59 PM - ERROR - Failed to Login Invalid email or password
+5/31/2022, 6:15:20 PM - ERROR - while finding board workspace | {}
+5/31/2022, 6:15:20 PM - ERROR - Failed to get board | {}
+5/31/2022, 6:18:34 PM - ERROR - while finding board workspace | {}
+5/31/2022, 6:18:34 PM - ERROR - Failed to get board | {}
+5/31/2022, 6:19:36 PM - ERROR - while finding board workspace | {}
+5/31/2022, 6:19:36 PM - ERROR - Failed to get board | {}
+5/31/2022, 6:20:35 PM - ERROR - while finding board workspace | {}
+5/31/2022, 6:20:35 PM - ERROR - Failed to get board | {}
+5/31/2022, 6:22:54 PM - INFO - Req was made
+5/31/2022, 6:22:54 PM - DEBUG - Getting Boards
+5/31/2022, 6:24:53 PM - INFO - Req was made
+5/31/2022, 6:24:53 PM - DEBUG - Getting Boards
+5/31/2022, 6:25:17 PM - DEBUG - adding
+5/31/2022, 6:26:46 PM - INFO - Req was made
+5/31/2022, 6:26:46 PM - DEBUG - Getting Boards
+5/31/2022, 6:32:49 PM - INFO - Req was made
+5/31/2022, 6:32:49 PM - DEBUG - Getting Boards
+5/31/2022, 6:32:58 PM - DEBUG - adding
+5/31/2022, 6:33:11 PM - INFO - Req was made
+5/31/2022, 6:33:11 PM - DEBUG - Getting Boards
+5/31/2022, 6:34:05 PM - INFO - Server is running on port: 3030
+5/31/2022, 6:39:43 PM - INFO - Req was made
+5/31/2022, 6:39:43 PM - DEBUG - Getting Boards
+5/31/2022, 6:39:53 PM - DEBUG - adding
+5/31/2022, 6:39:56 PM - DEBUG - adding
+5/31/2022, 6:40:45 PM - INFO - Server is running on port: 3030
+5/31/2022, 6:44:54 PM - INFO - Req was made
+5/31/2022, 6:44:55 PM - DEBUG - Getting Boards
+5/31/2022, 6:45:35 PM - INFO - Req was made
+5/31/2022, 6:45:35 PM - DEBUG - Getting Boards
+5/31/2022, 7:11:14 PM - ERROR - while finding board undefined | {}
+5/31/2022, 7:11:14 PM - ERROR - Failed to get board | {}
+5/31/2022, 9:31:00 PM - INFO - Req was made
+5/31/2022, 9:31:00 PM - DEBUG - Getting Boards
+5/31/2022, 9:31:20 PM - INFO - Req was made
+5/31/2022, 9:31:20 PM - DEBUG - Getting Boards
+5/31/2022, 9:46:33 PM - INFO - Req was made
+5/31/2022, 9:46:33 PM - DEBUG - Getting Boards
+5/31/2022, 9:46:41 PM - INFO - Req was made
+5/31/2022, 9:46:41 PM - DEBUG - Getting Boards
+5/31/2022, 10:04:45 PM - INFO - Req was made
+5/31/2022, 10:04:45 PM - DEBUG - Getting Boards
+5/31/2022, 10:05:31 PM - INFO - Req was made
+5/31/2022, 10:05:31 PM - DEBUG - Getting Boards
+5/31/2022, 10:05:34 PM - INFO - Req was made
+5/31/2022, 10:05:34 PM - DEBUG - Getting Boards
+5/31/2022, 10:05:42 PM - INFO - Req was made
+5/31/2022, 10:05:42 PM - DEBUG - Getting Boards
+5/31/2022, 10:07:12 PM - INFO - Req was made
+5/31/2022, 10:07:12 PM - DEBUG - Getting Boards
+5/31/2022, 10:27:20 PM - INFO - Req was made
+5/31/2022, 10:27:20 PM - DEBUG - Getting Boards
+5/31/2022, 10:29:41 PM - INFO - Req was made
+5/31/2022, 10:29:41 PM - DEBUG - Getting Boards
+5/31/2022, 10:29:56 PM - DEBUG - adding
+5/31/2022, 10:29:59 PM - INFO - Req was made
+5/31/2022, 10:29:59 PM - DEBUG - Getting Boards
+5/31/2022, 10:31:15 PM - INFO - Req was made
+5/31/2022, 10:31:15 PM - DEBUG - Getting Boards
+5/31/2022, 10:31:34 PM - DEBUG - adding
+5/31/2022, 10:31:37 PM - INFO - Req was made
+5/31/2022, 10:31:37 PM - DEBUG - Getting Boards
+5/31/2022, 10:33:27 PM - INFO - Req was made
+5/31/2022, 10:33:27 PM - DEBUG - Getting Boards
+5/31/2022, 10:33:32 PM - INFO - Req was made
+5/31/2022, 10:33:32 PM - DEBUG - Getting Boards
+5/31/2022, 10:33:40 PM - DEBUG - adding
+5/31/2022, 10:33:42 PM - INFO - Req was made
+5/31/2022, 10:33:42 PM - DEBUG - Getting Boards
+5/31/2022, 10:34:38 PM - INFO - Req was made
+5/31/2022, 10:34:38 PM - DEBUG - Getting Boards
+5/31/2022, 10:51:29 PM - INFO - Req was made
+5/31/2022, 10:51:29 PM - DEBUG - Getting Boards
+5/31/2022, 10:51:45 PM - DEBUG - adding
+5/31/2022, 10:51:47 PM - INFO - Req was made
+5/31/2022, 10:51:47 PM - DEBUG - Getting Boards
+5/31/2022, 11:16:35 PM - INFO - Req was made
+5/31/2022, 11:16:35 PM - DEBUG - Getting Boards
+5/31/2022, 11:16:43 PM - INFO - Req was made
+5/31/2022, 11:16:43 PM - DEBUG - Getting Boards
+5/31/2022, 11:22:44 PM - INFO - Req was made
+5/31/2022, 11:22:44 PM - DEBUG - Getting Boards
