@@ -41,40 +41,8 @@ async function remove(boardId) {
 
 async function add(board) {
     try {
-        const boardToAdd =
-        {
-            title: board.title,
-            createdAt: 0,
-            isStarred: board.isStarred,
-            createdBy: board.creator,
-            style: { background: board.background, backgroundColor: board.backgroundColor },
-            lastVisit: board.lastVisit,
-            labels: [
-                {
-                    id: 'l101',
-                    title: 'Done',
-                    color: '#61bd4f'
-                },
-                {
-                    id: 'l102',
-                    title: 'Progress',
-                    color: '#61bd33'
-                }
-            ],
-            members: [board.creator],
-            groups: [],
-            activities: [],
-            cmpsOrder: [
-                "status-picker",
-                "member-picker",
-                "date-picker"
-            ]
-        }
-
-
         const collection = await dbService.getCollection('board')
-        const addedBoard = await collection.insertOne(boardToAdd)
-        console.log(addedBoard.ops)
+        const addedBoard = await collection.insertOne(board)
         return addedBoard
     } catch (err) {
         logger.error('cannot insert board', err)
@@ -82,7 +50,6 @@ async function add(board) {
     }
 }
 async function update(board) {
-
     try {
         const id = ObjectId(board._id)
         delete board._id
@@ -92,21 +59,6 @@ async function update(board) {
     } catch (err) {
         logger.error(`cannot update board ${boardId}`, err)
         throw err
-    }
-}
-
-async function updateMini(board) {
-    try {
-        const id = ObjectId(board._id)
-        delete board._id
-        const collection = await dbService.getCollection('board')
-        console.log('collection', collection)
-        await collection.updateOne({ _id: id }, { $set: { ...board } })
-        board._id = id
-        console.log('board after mongo', board)
-        return board
-    } catch {
-
     }
 }
 
@@ -125,5 +77,4 @@ module.exports = {
     remove,
     add,
     update,
-    updateMini
 }
