@@ -13,10 +13,11 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-    const criteria = _buildCriteria(filterBy)
+    // const criteria = _buildCriteria(filterBy)
     try {
         const collection = await dbService.getCollection('user')
-        var users = await collection.find(criteria).toArray()
+        // var users = await collection.find(criteria).toArray()
+        var users = await collection.find({}).toArray()
         users = users.map(user => {
             delete user.password
             user.isHappy = true
@@ -49,7 +50,7 @@ async function getUserByEmail(email) {
         const user = await collection.findOne({ email })
         return user
     } catch (err) {
-        logger.error(`while finding user ${username}`, err)
+        logger.error(`while finding user ${email}`, err)
         throw err
     }
 }
@@ -86,17 +87,14 @@ async function add(user) {
     try {
         // peek only updatable fields!
         const userToAdd = {
-            username: user.username,
+            email: user.email,
             password: user.password,
             firstName: user.firstName,
             lastName: user.lastName,
-            color: user.color,
-            email: user.email,
-            googleId: user.googleId,
+            color: user.color
         }
         const collection = await dbService.getCollection('user')
         const { insertedId } = await collection.insertOne(userToAdd)
-        console.log("insertedId user-service", insertedId);
         userToAdd._id = insertedId
         return userToAdd
     } catch (err) {
