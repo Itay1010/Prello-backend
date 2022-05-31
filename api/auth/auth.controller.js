@@ -4,9 +4,9 @@ const cookieParser = require('cookie-parser')
 
 
 async function login(req, res) {
-    const { email, password } = req.body
+    const credentials = req.body
     try {
-        const user = await authService.login(email, password)
+        const user = await authService.login(credentials)
         const loginToken = authService.getLoginToken(user)
         logger.info('User login: ', user)
         res.cookie('loginToken', cookieParser.JSONCookies(loginToken), { maxAge: 1000 * 60 * 60 * 24 })
@@ -19,15 +19,13 @@ async function login(req, res) {
 
 async function signup(req, res) {
     try {
-        const { email, password, firstName, lastName, color } = req.body
-
+        const credentials = req.body
         // Never log passwords
         // logger.debug(fullname + ', ' + email + ', ' + password)
 
-        const account = await authService.signup(email, password, firstName, lastName, color)
-
+        const account = await authService.signup(credentials)
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
-        const user = await authService.login(email, password)
+        const user = await authService.login(credentials)
         const loginToken = authService.getLoginToken(user)
         logger.info('User login: ', user)
         res.cookie('loginToken', loginToken)

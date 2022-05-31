@@ -20,8 +20,7 @@ async function query(filterBy = {}) {
         var users = await collection.find({}).toArray()
         users = users.map(user => {
             delete user.password
-            user.isHappy = true
-            user.createdAt = ObjectId(user._id).getTimestamp()
+            // user.createdAt = ObjectId(user._id).getTimestamp()
             // Returning fake fresh data
             // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
             return user
@@ -88,10 +87,12 @@ async function add(user) {
         // peek only updatable fields!
         const userToAdd = {
             email: user.email,
-            password: user.password,
+            password: user.password || null,
             firstName: user.firstName,
             lastName: user.lastName,
-            color: user.color
+            color: user.color,
+            googleId: user.googleId || null,
+            imgUrl: user.imgUrl || null
         }
         const collection = await dbService.getCollection('user')
         const { insertedId } = await collection.insertOne(userToAdd)
