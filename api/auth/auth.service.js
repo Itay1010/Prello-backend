@@ -6,29 +6,28 @@ const logger = require('../../services/logger.service')
 
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
-async function login(username, password) {
-    logger.debug(`auth.service - login with username: ${username}`)
-
-    const user = await userService.getUserByEmail(username)
-    const specialPass = await encrypt.hash(password)
-    console.log('specialPass', specialPass);
-    if (!user) return Promise.reject('Invalid username or password')
+async function login(email, password) {
+    logger.debug(`auth.service - login with email: ${email}`)
+    const user = await userService.getUserByEmail(email)
+    if (!user) return Promise.reject('Invalid email or password')
     // TODO: un-comment for real login
     const match = await bcrypt.compare(password, user.password)
-    if (!match) return Promise.reject('Invalid username or password')
+    if (!match) return Promise.reject('Invalid email or password')
 
     delete user.password
-    // delete user._id
+    user._id = user._id.toString()
     return user
 }
 
-async function signup(username, password, firstName, lastName, color, email, googleId = '') {
+async function signup(email, password, firstName, lastName, color) {
+    const saltRounds = 10
+    logger.debug(`auth.service - signup with email: ${email}, fullname: ${firstName} ${lastName}`)
 
-    logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
-    if (!username || !password || !firstName || !color || !email) return Promise.reject('fullname, username and password are required!')
+    if (!email || !password || !firstName || !lastName || !color)
+        return Promise.reject('all form fields are required!')
 
-    const hash = await bcrypt.hash(password)
-    return userService.add({ username, password: hash, firstName, lastName, color, email, googleId })
+    const hash = await bcrypt.hash(password, saltRounds)
+    return userService.add({ email, password: hash, firstName, lastName, color })
 }
 
 function getLoginToken(user) {

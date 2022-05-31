@@ -16,6 +16,8 @@ node_modules
 .env.development.local
 .env.test.local
 .env.production.local
+logs
+logs/backend.log
 
 npm-debug.log*
 yarn-debug.log*
