@@ -8,15 +8,13 @@ const { log } = require('../../middlewares/logger.middleware')
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
 async function login(credentials) {
-    logger.debug(`auth.service - login with email: ${JSON.stringify(credentials)}`)
+    logger.debug(`auth.service - login with email: ${JSON.stringify(credentials.email)}`)
     const user = await userService.getUserByEmail(credentials.email)
-    logger.debug(`auth.service - user found: ${JSON.stringify(user)}`)
     if (!user) return Promise.reject('Invalid email or password')
 
     let match = (user.googleId) ?
         (credentials.googleId === user.googleId) :
         await bcrypt.compare(credentials.password, user.password)
-    console.log('login - match', match)
 
     if (!match) return Promise.reject('Invalid email or password')
 
