@@ -137,3 +137,78 @@
 01/06/2022, 14:49:04 - INFO - Req was made
 01/06/2022, 14:49:04 - DEBUG - Getting Boards
 01/06/2022, 18:24:40 - INFO - Server is running on port: 3030
+01/06/2022, 20:50:19 - INFO - Req was made
+01/06/2022, 20:50:19 - DEBUG - Getting Boards
+01/06/2022, 20:56:29 - INFO - Req was made
+01/06/2022, 20:56:29 - DEBUG - Getting Boards
+01/06/2022, 21:25:12 - INFO - Req was made
+01/06/2022, 21:25:12 - DEBUG - Getting Boards
+01/06/2022, 21:40:12 - INFO - Req was made
+01/06/2022, 21:40:12 - DEBUG - Getting Boards
+01/06/2022, 21:47:30 - INFO - Req was made
+01/06/2022, 21:47:30 - DEBUG - Getting Boards
+01/06/2022, 21:47:34 - INFO - Req was made
+01/06/2022, 21:47:34 - DEBUG - Getting Boards
+01/06/2022, 21:54:21 - INFO - Req was made
+01/06/2022, 21:54:21 - DEBUG - Getting Boards
+01/06/2022, 22:01:23 - INFO - Req was made
+01/06/2022, 22:01:23 - DEBUG - Getting Boards
+01/06/2022, 22:11:09 - INFO - Req was made
+01/06/2022, 22:11:09 - DEBUG - Getting Boards
+01/06/2022, 22:12:38 - INFO - Req was made
+01/06/2022, 22:12:38 - DEBUG - Getting Boards
+01/06/2022, 22:12:41 - INFO - Req was made
+01/06/2022, 22:12:41 - DEBUG - Getting Boards
+01/06/2022, 22:24:36 - INFO - Req was made
+01/06/2022, 22:24:36 - DEBUG - Getting Boards
+01/06/2022, 22:28:58 - INFO - Req was made
+01/06/2022, 22:28:58 - DEBUG - Getting Boards
+01/06/2022, 22:29:02 - INFO - Req was made
+01/06/2022, 22:29:02 - DEBUG - Getting Boards
+01/06/2022, 22:29:04 - INFO - Req was made
+01/06/2022, 22:29:04 - DEBUG - Getting Boards
+01/06/2022, 22:29:06 - INFO - Req was made
+01/06/2022, 22:29:06 - DEBUG - Getting Boards
+01/06/2022, 22:29:11 - INFO - Req was made
+01/06/2022, 22:29:11 - DEBUG - Getting Boards
+01/06/2022, 22:29:14 - INFO - Req was made
+01/06/2022, 22:29:14 - DEBUG - Getting Boards
+01/06/2022, 22:39:34 - INFO - Req was made
+01/06/2022, 22:39:34 - DEBUG - Getting Boards
+01/06/2022, 22:39:35 - INFO - Req was made
+01/06/2022, 22:39:35 - DEBUG - Getting Boards
+01/06/2022, 22:40:52 - INFO - Req was made
+01/06/2022, 22:40:52 - DEBUG - Getting Boards
+01/06/2022, 22:41:41 - INFO - Req was made
+01/06/2022, 22:41:41 - DEBUG - Getting Boards
+01/06/2022, 22:41:44 - INFO - Req was made
+01/06/2022, 22:41:44 - DEBUG - Getting Boards
+01/06/2022, 23:02:59 - DEBUG - auth.service - login with email: {"_id":"g100","firstName":"Guest","lastName":"Guest","username":"Guest","password":"123","email":"Guest@gmail.com","color":"#5BC0EB"}
+01/06/2022, 23:02:59 - DEBUG - auth.service - user found: null
+01/06/2022, 23:02:59 - ERROR - Failed to Login Invalid email or password
+01/06/2022, 23:13:57 - DEBUG - auth.service - login with email: {"_id":"g100","firstName":"Guest","lastName":"Guest","username":"Guest","password":"123","email":"Guest@gmail.com","color":"#5BC0EB"}
+01/06/2022, 23:13:57 - DEBUG - auth.service - user found: null
+01/06/2022, 23:13:57 - ERROR - Failed to Login Invalid email or password
+01/06/2022, 23:41:29 - INFO - Req was made
+01/06/2022, 23:41:29 - DEBUG - Getting Boards
+01/06/2022, 23:41:32 - INFO - Req was made
+01/06/2022, 23:41:32 - DEBUG - Getting Boards
+01/06/2022, 23:41:37 - INFO - Req was made
+01/06/2022, 23:41:37 - DEBUG - Getting Boards
+01/06/2022, 23:41:39 - INFO - Req was made
+01/06/2022, 23:41:39 - DEBUG - Getting Boards
+01/06/2022, 23:41:41 - INFO - Req was made
+01/06/2022, 23:41:41 - DEBUG - Getting Boards
+01/06/2022, 23:41:44 - INFO - Req was made
+01/06/2022, 23:41:44 - DEBUG - Getting Boards
+01/06/2022, 23:41:46 - INFO - Req was made
+01/06/2022, 23:41:46 - DEBUG - Getting Boards
+01/06/2022, 23:41:47 - INFO - Req was made
+01/06/2022, 23:41:47 - DEBUG - Getting Boards
+01/06/2022, 23:41:48 - INFO - Req was made
+01/06/2022, 23:41:48 - DEBUG - Getting Boards
+01/06/2022, 23:45:50 - DEBUG - auth.service - login with email: {"_id":"g100","firstName":"Guest","lastName":"Guest","username":"Guest","password":"123","email":"Guest@gmail.com","color":"#5BC0EB"}
+01/06/2022, 23:45:51 - DEBUG - auth.service - user found: null
+01/06/2022, 23:45:51 - ERROR - Failed to Login Invalid email or password
+01/06/2022, 23:57:37 - INFO - Req was made
+01/06/2022, 23:57:37 - DEBUG - Getting Boards
