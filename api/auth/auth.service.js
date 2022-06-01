@@ -10,34 +10,24 @@ const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 async function login(credentials) {
     logger.debug(`auth.service - login with email: ${credentials.email}`)
     const user = await userService.getUserByEmail(credentials.email)
-    console.log('getUserByEmail', user);
     if (!user) return Promise.reject('Invalid email or password')
 
     let match
-    if (user.googleId !== null) {
-        console.log('verify with googleID');
-        match = (credentials.googleId === user.googleId)
-    } else {
-        console.log('verify with password');
-        console.log('user.password', user.password);
-        console.log('credentials.password', credentials.password);
-        match = await bcrypt.compare(credentials.password, user.password)
-    }
-    console.log('match', match);
+    if (user.googleId !== null) match = (credentials.googleId === user.googleId)
+    else match = await bcrypt.compare(credentials.password, user.password)
     if (!match) return Promise.reject('Invalid email or password')
 
     delete user.password
     user._id = user._id.toString()
-    console.log('user', user);
     return user
 }
 
 async function signup(credentials) {
+    credentials = JSON.parse(JSON.stringify(credentials))
     const saltRounds = 10
     logger.debug(`auth.service - signup with email: ${credentials.email}`)
     if (!credentials.email) return Promise.reject('all form fields are required!')
 
-    console.log('credentials', credentials);
     if (credentials.googleId) {
         return userService.add(credentials)
     }

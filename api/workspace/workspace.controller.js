@@ -3,7 +3,6 @@ const logger = require('../../services/logger.service')
 
 // GET LIST
 async function getBoards(req, res) {
-  console.log('getboards');
   try {
     logger.debug('Getting Boards')
     var queryParams = req.query
@@ -42,12 +41,9 @@ async function addBoard(req, res) {
 
 // PUT (Update board)
 async function updateMini(req, res) {
-  console.log('poop')
-  console.log(req.body)
   try {
     const board = req.body;
     const updatedBoard = await boardService.updateMini(board)
-    console.log('updatedBoard', updatedBoard)
     res.json(updatedBoard)
   } catch (err) {
     logger.error('Failed to update board', err)
