@@ -8,13 +8,16 @@ const { log } = require('../../middlewares/logger.middleware')
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
 async function login(credentials) {
-    logger.debug(`auth.service - login with email: ${credentials.email}`)
+    logger.debug(`auth.service - login with email: ${JSON.stringify(credentials)}`)
     const user = await userService.getUserByEmail(credentials.email)
+    logger.debug(`auth.service - user found: ${JSON.stringify(user)}`)
     if (!user) return Promise.reject('Invalid email or password')
 
-    let match
-    if (user.googleId !== null) match = (credentials.googleId === user.googleId)
-    else match = await bcrypt.compare(credentials.password, user.password)
+    let match = (user.googleId) ?
+        (credentials.googleId === user.googleId) :
+        await bcrypt.compare(credentials.password, user.password)
+    console.log('login - match', match)
+
     if (!match) return Promise.reject('Invalid email or password')
 
     delete user.password
@@ -23,10 +26,11 @@ async function login(credentials) {
 }
 
 async function signup(credentials) {
-    credentials = JSON.parse(JSON.stringify(credentials))
+    logger.debug('signup - credentials', credentials)
     const saltRounds = 10
-    logger.debug(`auth.service - signup with email: ${credentials.email}`)
     if (!credentials.email) return Promise.reject('all form fields are required!')
+    // credentials = JSON.parse(JSON.stringify(credentials))
+    logger.debug(`auth.service - signup with email: ${credentials}`)
 
     if (credentials.googleId) {
         return userService.add(credentials)
