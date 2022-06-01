@@ -47,7 +47,7 @@ async function add(board) {
             createdAt: 0,
             isStarred: board.isStarred,
             createdBy: board.creator,
-            style: { background: board.background, backgroundColor: board.backgroundColor },
+            style: { background: board.backgroundOption, backgroundColor: board.backgroundColor },
             lastVisit: board.lastVisit,
             labels: [
                 {
@@ -70,12 +70,13 @@ async function add(board) {
                 "date-picker"
             ]
         }
+        console.log('board ddddddddddddd', board)
 
 
         const collection = await dbService.getCollection('board')
         const addedBoard = await collection.insertOne(boardToAdd)
-        console.log(addedBoard.ops)
-        return addedBoard
+        console.log('addedBoard.ops', addedBoard.ops)
+        return addedBoard.ops
     } catch (err) {
         logger.error('cannot insert board', err)
         throw err
