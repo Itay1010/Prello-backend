@@ -136,3 +136,4 @@
 01/06/2022, 14:47:20 - INFO - User login:  | {"_id":"62965fb43c81f639a41e4d11","email":"offircarmi@gmail.com","firstName":"Offir","lastName":null,"color":"#49C8E5","googleId":"110953136490110739603","imgUrl":"https://lh3.googleusercontent.com/a/AATXAJy5Ep_pXP1-_w_PMQpr6XBlXHquUrJA8db-YX8jHcc=s96-c"}
 01/06/2022, 14:49:04 - INFO - Req was made
 01/06/2022, 14:49:04 - DEBUG - Getting Boards
+01/06/2022, 18:24:40 - INFO - Server is running on port: 3030

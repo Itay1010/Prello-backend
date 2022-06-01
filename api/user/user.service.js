@@ -13,16 +13,11 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-    // const criteria = _buildCriteria(filterBy)
     try {
         const collection = await dbService.getCollection('user')
-        // var users = await collection.find(criteria).toArray()
         var users = await collection.find({}).toArray()
         users = users.map(user => {
             delete user.password
-            // user.createdAt = ObjectId(user._id).getTimestamp()
-            // Returning fake fresh data
-            // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
             return user
         })
         return users
@@ -71,11 +66,13 @@ async function update(user) {
             _id: ObjectId(user._id),
             username: user.username,
             fullname: user.fullname,
-            score: user.score
+            email: user.email,
+            color: user.color,
+            imgUrl: user.imgUrl
         }
         const collection = await dbService.getCollection('user')
-        await collection.updateOne({ '_id': userToSave._id }, { $set: userToSave })
-        return userToSave;
+        const { modifiedCount } = await collection.updateOne({ '_id': userToSave._id }, { $set: userToSave })
+        return modifiedCount;
     } catch (err) {
         logger.error(`cannot update user ${user._id}`, err)
         throw err
@@ -83,6 +80,7 @@ async function update(user) {
 }
 
 async function add(user) {
+    console.log('add - insertedId', user)
     try {
         // peek only updatable fields!
         const userToAdd = {
@@ -94,6 +92,9 @@ async function add(user) {
             googleId: user.googleId || null,
             imgUrl: user.imgUrl || null
         }
+        if (userToAdd.password === null) delete userToAdd.password
+        else delete userToAdd.googleId
+
         const collection = await dbService.getCollection('user')
         const { insertedId } = await collection.insertOne(userToAdd)
         userToAdd._id = insertedId

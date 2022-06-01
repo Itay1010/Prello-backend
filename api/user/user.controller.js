@@ -1,6 +1,16 @@
 const userService = require('./user.service')
 const logger = require('../../services/logger.service')
 
+async function getUsers(req, res) {
+    try {
+        const users = await userService.query()
+        res.send(users)
+    } catch (err) {
+        logger.error('Failed to get users', err)
+        res.status(500).send({ err: 'Failed to get users' })
+    }
+}
+
 async function getUser(req, res) {
     try {
         const user = await userService.getById(req.params.id)
@@ -11,16 +21,14 @@ async function getUser(req, res) {
     }
 }
 
-async function getUsers(req, res) {
+async function updateUser(req, res) {
     try {
-        // const filterBy = {
-        //     txt: req.query?.txt || ''
-        // }
-        const users = await userService.query({})
-        res.send(users)
+        const user = req.body
+        const modifiedCount = await userService.update(user)
+        res.send(modifiedCount)
     } catch (err) {
-        logger.error('Failed to get users', err)
-        res.status(500).send({ err: 'Failed to get users' })
+        logger.error('Failed to update user', err)
+        res.status(500).send({ err: 'Failed to update user' })
     }
 }
 
@@ -31,17 +39,6 @@ async function deleteUser(req, res) {
     } catch (err) {
         logger.error('Failed to delete user', err)
         res.status(500).send({ err: 'Failed to delete user' })
-    }
-}
-
-async function updateUser(req, res) {
-    try {
-        const user = req.body
-        const savedUser = await userService.update(user)
-        res.send(savedUser)
-    } catch (err) {
-        logger.error('Failed to update user', err)
-        res.status(500).send({ err: 'Failed to update user' })
     }
 }
 
