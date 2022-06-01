@@ -1032,3 +1032,14 @@
 5/31/2022, 5:51:07 PM - INFO - Server is running on port: 3030
 >>>>>>> d172f29f99f9966342913f13821f91cc49f69f84
 31/05/2022, 23:18:15 - INFO - Server is running on port: 3030
+31/05/2022, 23:38:48 - DEBUG - auth.service - login with email: offircarmi@gmail.com
+31/05/2022, 23:38:48 - INFO - User login:  | {"_id":"62965fb43c81f639a41e4d11","email":"offircarmi@gmail.com","firstName":"Offir","lastName":null,"color":"#49C8E5","googleId":"110953136490110739603","imgUrl":"https://lh3.googleusercontent.com/a/AATXAJy5Ep_pXP1-_w_PMQpr6XBlXHquUrJA8db-YX8jHcc=s96-c"}
+31/05/2022, 23:39:02 - INFO - Req was made
+31/05/2022, 23:39:02 - DEBUG - Getting Boards
+01/06/2022, 8:50:23 - INFO - Server is running on port: 3030
+01/06/2022, 8:56:23 - DEBUG - auth.service - login with email: 
+01/06/2022, 8:56:25 - ERROR - Failed to Login Invalid email or password
+01/06/2022, 9:06:14 - DEBUG - auth.service - login with email: offircarmi@gmail.com
+01/06/2022, 9:06:14 - INFO - User login:  | {"_id":"62965fb43c81f639a41e4d11","email":"offircarmi@gmail.com","firstName":"Offir","lastName":null,"color":"#49C8E5","googleId":"110953136490110739603","imgUrl":"https://lh3.googleusercontent.com/a/AATXAJy5Ep_pXP1-_w_PMQpr6XBlXHquUrJA8db-YX8jHcc=s96-c"}
+01/06/2022, 9:06:44 - INFO - Req was made
+01/06/2022, 9:06:44 - DEBUG - Getting Boards
