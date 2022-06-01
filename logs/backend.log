@@ -108,3 +108,31 @@
 01/06/2022, 11:14:45 - INFO - Server is running on port: 3030
 01/06/2022, 11:14:55 - INFO - Server is running on port: 3030
 01/06/2022, 11:14:58 - INFO - Server is running on port: 3030
+01/06/2022, 11:22:47 - DEBUG - auth.service - signup with email: q
+01/06/2022, 11:22:49 - DEBUG - auth.route - new account created: {"email":"q","password":"$2b$10$rDOVnUn2Eo2xQTzyIxydp.8pKccwGSreRtX4iuiU2RPqGFeJZZwVW","firstName":"q","lastName":"q","color":"#AD76B2","googleId":null,"imgUrl":null,"_id":"629721d90baef32ac4d812d1"}
+01/06/2022, 11:22:49 - DEBUG - auth.service - login with email: q
+01/06/2022, 11:22:50 - INFO - User login:  | {"_id":"629721d90baef32ac4d812d1","email":"q","firstName":"q","lastName":"q","color":"#AD76B2","googleId":null,"imgUrl":null}
+01/06/2022, 11:22:50 - INFO - Req was made
+01/06/2022, 11:22:50 - DEBUG - Getting Boards
+01/06/2022, 11:23:37 - INFO - Req was made
+01/06/2022, 11:23:37 - DEBUG - Getting Boards
+01/06/2022, 11:24:43 - INFO - Req was made
+01/06/2022, 11:24:43 - DEBUG - Getting Boards
+01/06/2022, 11:25:51 - INFO - Req was made
+01/06/2022, 11:25:51 - DEBUG - Getting Boards
+01/06/2022, 11:27:03 - INFO - Req was made
+01/06/2022, 11:27:03 - DEBUG - Getting Boards
+01/06/2022, 11:27:14 - INFO - Req was made
+01/06/2022, 11:27:14 - DEBUG - Getting Boards
+01/06/2022, 11:27:44 - DEBUG - auth.service - signup with email: offir@test
+01/06/2022, 11:27:44 - DEBUG - auth.route - new account created: {"email":"offir@test","password":"$2b$10$ptk/xlKQ7DH/uW18UCf3bueqHDRrz0aSMzgl9a5mzXjf79IArtc3.","firstName":"offir","lastName":"test","color":"#79CFBA","googleId":null,"imgUrl":null,"_id":"629723000baef32ac4d812d2"}
+01/06/2022, 11:27:44 - DEBUG - auth.service - login with email: offir@test
+01/06/2022, 11:27:45 - INFO - User login:  | {"_id":"629723000baef32ac4d812d2","email":"offir@test","firstName":"offir","lastName":"test","color":"#79CFBA","googleId":null,"imgUrl":null}
+01/06/2022, 11:27:45 - INFO - Req was made
+01/06/2022, 11:27:45 - DEBUG - Getting Boards
+01/06/2022, 11:55:16 - INFO - Server is running on port: 3030
+01/06/2022, 14:46:32 - INFO - Server is running on port: 3030
+01/06/2022, 14:47:20 - DEBUG - auth.service - login with email: offircarmi@gmail.com
+01/06/2022, 14:47:20 - INFO - User login:  | {"_id":"62965fb43c81f639a41e4d11","email":"offircarmi@gmail.com","firstName":"Offir","lastName":null,"color":"#49C8E5","googleId":"110953136490110739603","imgUrl":"https://lh3.googleusercontent.com/a/AATXAJy5Ep_pXP1-_w_PMQpr6XBlXHquUrJA8db-YX8jHcc=s96-c"}
+01/06/2022, 14:49:04 - INFO - Req was made
+01/06/2022, 14:49:04 - DEBUG - Getting Boards
