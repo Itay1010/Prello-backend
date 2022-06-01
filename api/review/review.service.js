@@ -82,7 +82,6 @@ async function remove(reviewId) {
 
 
 async function add(review) {
-    console.log('add - review', review)
     try {
         let reviewToAdd = {
             userId: ObjectId(review.userId),

@@ -7,7 +7,6 @@ const reviewService = require('./review.service')
 async function getReviews(req, res) {
     try {
         const reviews = await reviewService.query(req.query)
-        // console.log('getReviews - reviews', reviews)
         res.send(reviews)
     } catch (err) {
         logger.error('Cannot get reviews', err)
