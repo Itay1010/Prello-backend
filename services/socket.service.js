@@ -13,8 +13,8 @@ function setupSocketAPI(http) {
         _printSockets()
         logger.info(`New connected socket [id: ${socket.id}]`)
         socket.on('disconnect', socket => {
-            _printSockets()
             logger.info(`Socket disconnected [id: ${socket.id}]`)
+            _printSockets()
         })
         socket.on('board topic', topic => {
             if (socket.myTopic === topic) return;
@@ -26,8 +26,9 @@ function setupSocketAPI(http) {
             socket.myTopic = topic
         })
         socket.on('pull board', () => {
+            logger.debug('socket.on - pull board')
             broadcast({ type: 'board update', data: null, room: socket.myTopic, userId: socket.userId })
-            // gIo.to(socket.myTopic).emit('board update', 'updated board')
+            // gIo.to(socket.myTopic).emit('board update', 'updating board')
 
         })
         socket.on('chat newMsg', msg => {
