@@ -10,11 +10,13 @@ function setupSocketAPI(http) {
         }
     })
     gIo.on('connection', socket => {
+        _printSockets()
         logger.info(`New connected socket [id: ${socket.id}]`)
         socket.on('disconnect', socket => {
+            _printSockets()
             logger.info(`Socket disconnected [id: ${socket.id}]`)
         })
-        socket.on('chat topic', topic => {
+        socket.on('board topic', topic => {
             if (socket.myTopic === topic) return;
             if (socket.myTopic) {
                 socket.leave(socket.myTopic)
@@ -22,6 +24,11 @@ function setupSocketAPI(http) {
             }
             socket.join(topic)
             socket.myTopic = topic
+        })
+        socket.on('pull board', () => {
+            broadcast({ type: 'board update', data: null, room: socket.myTopic, userId: socket.userId })
+            // gIo.to(socket.myTopic).emit('board update', 'updated board')
+
         })
         socket.on('chat newMsg', msg => {
             logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
