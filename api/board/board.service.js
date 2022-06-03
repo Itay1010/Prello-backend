@@ -7,8 +7,8 @@ async function query() {
         const collection = await dbService.getCollection('board')
         const boards = await collection.find({}).toArray()
         const boardMinis = boards.map(board => {
-     
-            return { _id: board._id, title: board.title, createdBy: { ...board.createdBy }, style: board.style, isStarred: board.isStarred }
+
+            return { _id: board._id, title: board.title, createdBy: { ...board.createdBy }, style: board.style, isStarred: board.isStarred, createdAt: board.createdAt }
         })
         return boardMinis
     } catch (err) {
@@ -44,7 +44,7 @@ async function add(board) {
         const boardToAdd =
         {
             title: board.title,
-            createdAt: 0,
+            createdAt: Date.now(),
             isStarred: board.isStarred,
             createdBy: board.creator,
             style: { background: board.backgroundOption, backgroundColor: board.backgroundColor },
@@ -75,7 +75,7 @@ async function add(board) {
 
         const collection = await dbService.getCollection('board')
         const addedBoard = await collection.insertOne(boardToAdd)
-  
+
         return addedBoard.ops
     } catch (err) {
         logger.error('cannot insert board', err)
@@ -101,10 +101,10 @@ async function updateMini(board) {
         const id = ObjectId(board._id)
         delete board._id
         const collection = await dbService.getCollection('board')
-     
+
         await collection.updateOne({ _id: id }, { $set: { ...board } })
         board._id = id
- 
+
         return board
     } catch {
 
