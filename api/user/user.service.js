@@ -18,6 +18,7 @@ async function query(filterBy = {}) {
         var users = await collection.find({}).toArray()
         users = users.map(user => {
             delete user.password
+            delete user.googleId
             return user
         })
         return users
