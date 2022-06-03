@@ -24,30 +24,24 @@ function setupSocketAPI(http) {
             }
             socket.join(topic)
             socket.myTopic = topic
+            logger.info(`Socket is joining topic ${socket.myTopic} [id: ${socket.id}]`)
         })
-        socket.on('pull board', () => {
+        socket.on('leave topic', topic => {
+            if (!socket.myTopic) return;
+            logger.info(`Socket is leaving topic ${socket.myTopic} [id: ${socket.id}]`)
+            socket.leave(socket.myTopic)
+        })
+        socket.on('pull board', (boardId) => {
             logger.debug('socket.on - pull board')
-            broadcast({ type: 'board update', data: null, room: socket.myTopic, userId: socket.userId })
+            broadcast({ type: 'board update', data: boardId, room: socket.myTopic, userId: socket.userId })
             // gIo.to(socket.myTopic).emit('board update', 'updating board')
 
-        })
-        socket.on('chat newMsg', msg => {
-            logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
-            // emits to all sockets:
-            // gIo.emit('chat addMsg', msg)
-            // emits only to sockets in the same room
-            gIo.to(socket.myTopic).emit('chat addMsg', msg)
         })
         socket.on('chat typing', typing => {
             logger.info(`User${typing.typingUser} is typing`, typing)
             // console.log(socket.userId, typing.typingUser)
             broadcast({ type: 'chat typing', data: typing, room: socket.myTopic, userId: socket.userId })
             // gIo.to(socket.myTopic).emit('chat typing', typing)
-        })
-        socket.on('user-watch', userId => {
-            logger.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
-            socket.join('watching:' + userId)
-
         })
         socket.on('set-user-socket', userId => {
             logger.info(`Setting socket.userId = ${userId} for socket [id: ${socket.id}]`)
