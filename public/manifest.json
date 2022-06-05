@@ -1,0 +1,20 @@
+{
+  "short_name": "Prello",
+  "name": "Prello",
+  "icons": [
+    {
+      "src": "logo_20x20.png",
+      "sizes": "20x20",
+      "type": "image/png"
+    },
+    {
+      "src": "logo_20x20.png",
+      "type": "image/png",
+      "sizes": "20x20"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
