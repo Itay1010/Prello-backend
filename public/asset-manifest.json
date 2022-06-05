@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f822cef9.css",
-    "main.js": "/static/js/main.5294ddda.js",
+    "main.css": "/static/css/main.12aba2c3.css",
+    "main.js": "/static/js/main.aef938f9.js",
     "static/media/Nunito.ttf": "/static/media/Nunito.ba12192be420666fc588.ttf",
     "static/media/board-sample.png": "/static/media/board-sample.838da3a80768d3e2d177.png",
     "static/media/auth-img-1.svg": "/static/media/auth-img-1.47238298680cf64177bdb1faa64d3804.svg",
@@ -14,11 +14,11 @@
     "static/media/SegoeUI.ttf": "/static/media/SegoeUI.45472284dc36b2486ce2.ttf",
     "index.html": "/index.html",
     "static/media/add.svg": "/static/media/add.9b575a3c22f8522650a4.svg",
-    "main.f822cef9.css.map": "/static/css/main.f822cef9.css.map",
-    "main.5294ddda.js.map": "/static/js/main.5294ddda.js.map"
+    "main.12aba2c3.css.map": "/static/css/main.12aba2c3.css.map",
+    "main.aef938f9.js.map": "/static/js/main.aef938f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f822cef9.css",
-    "static/js/main.5294ddda.js"
+    "static/css/main.12aba2c3.css",
+    "static/js/main.aef938f9.js"
   ]
 }
