@@ -4503,3 +4503,111 @@
 05/06/2022, 22:43:30 - DEBUG - Getting Boards
 05/06/2022, 22:43:31 - INFO - Req was made
 05/06/2022, 22:43:31 - DEBUG - Getting Boards
+05/06/2022, 22:47:41 - INFO - Server is running on port: 3030
+05/06/2022, 22:47:41 - INFO - New connected socket [id: riRQ4vjzFc8x7HPQAAAF]
+05/06/2022, 22:47:41 - INFO - New connected socket [id: GH4_-jhAC8fn1A7lAAAG]
+05/06/2022, 22:47:41 - INFO - New connected socket [id: rpJRnAhvHDEdflYUAAAH]
+05/06/2022, 22:47:41 - INFO - New connected socket [id: 54asmuzUEtDeq_3HAAAI]
+05/06/2022, 22:47:41 - INFO - New connected socket [id: JHkQ1Cq2LCVlHEEIAAAJ]
+05/06/2022, 22:47:42 - INFO - New connected socket [id: TwJpg89JxYJa9WAJAAAL]
+05/06/2022, 22:47:42 - INFO - New connected socket [id: kx425wWnMN7k-QLsAAAN]
+05/06/2022, 22:47:43 - INFO - New connected socket [id: I3l8EdL7twQIit6CAAAP]
+05/06/2022, 22:47:44 - INFO - New connected socket [id: KPUB1PXWBdfQFmSTAAAR]
+05/06/2022, 22:47:45 - INFO - New connected socket [id: wWRwMpU9WRLJ4RZgAAAT]
+05/06/2022, 22:47:45 - INFO - New connected socket [id: 8eZBM1A2PULMacj9AAAV]
+05/06/2022, 22:47:54 - INFO - New connected socket [id: JET28LdLQPPZ2EwEAAAX]
+05/06/2022, 22:47:55 - INFO - Setting socket.userId = gfxD08IzreqIF1UqveVgS for socket [id: JET28LdLQPPZ2EwEAAAX]
+05/06/2022, 22:47:56 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 23:00:27 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 23:00:27 - INFO - New connected socket [id: BZcjMA7cWTlTTi5jAAAZ]
+05/06/2022, 23:00:27 - INFO - Req was made
+05/06/2022, 23:00:27 - DEBUG - Getting Boards
+05/06/2022, 23:00:28 - INFO - Setting socket.userId = 62975f08ffe6255fd82d5010 for socket [id: BZcjMA7cWTlTTi5jAAAZ]
+05/06/2022, 23:00:29 - INFO - Req was made
+05/06/2022, 23:00:29 - DEBUG - Getting Boards
+05/06/2022, 23:00:41 - INFO - Req was made
+05/06/2022, 23:00:41 - DEBUG - Getting Boards
+05/06/2022, 23:00:41 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: BZcjMA7cWTlTTi5jAAAZ]
+05/06/2022, 23:00:43 - INFO - Req was made
+05/06/2022, 23:00:43 - DEBUG - Getting Boards
+05/06/2022, 23:00:44 - INFO - Req was made
+05/06/2022, 23:00:44 - DEBUG - Getting Boards
+05/06/2022, 23:00:56 - INFO - Req was made
+05/06/2022, 23:00:56 - DEBUG - Getting Boards
+05/06/2022, 23:00:57 - INFO - Req was made
+05/06/2022, 23:00:57 - DEBUG - Getting Boards
+05/06/2022, 23:00:58 - INFO - Req was made
+05/06/2022, 23:00:58 - DEBUG - Getting Boards
+05/06/2022, 23:00:59 - INFO - Req was made
+05/06/2022, 23:00:59 - DEBUG - Getting Boards
+05/06/2022, 23:00:59 - INFO - Socket is leaving topic 629a049a6aa9e44f18fbc43f [id: BZcjMA7cWTlTTi5jAAAZ]
+05/06/2022, 23:00:59 - INFO - Socket is joining topic 629b13f5dbd97c0cf1344429 [id: BZcjMA7cWTlTTi5jAAAZ]
+05/06/2022, 23:00:59 - INFO - Req was made
+05/06/2022, 23:00:59 - DEBUG - Getting Boards
+05/06/2022, 23:24:11 - DEBUG - socket.on - pull board
+05/06/2022, 23:24:11 - INFO - Broadcasting event: board update
+05/06/2022, 23:24:11 - INFO - Broadcast to room 629b13f5dbd97c0cf1344429 excluding user: 62975f08ffe6255fd82d5010
+05/06/2022, 23:24:13 - DEBUG - socket.on - pull board
+05/06/2022, 23:24:13 - INFO - Broadcasting event: board update
+05/06/2022, 23:24:13 - INFO - Broadcast to room 629b13f5dbd97c0cf1344429 excluding user: 62975f08ffe6255fd82d5010
+05/06/2022, 23:24:43 - INFO - Req was made
+05/06/2022, 23:24:43 - DEBUG - Getting Boards
+05/06/2022, 23:24:44 - INFO - Req was made
+05/06/2022, 23:24:44 - DEBUG - Getting Boards
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:11:31 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 0:13:20 - INFO - Server is running on port: 3030
+06/06/2022, 0:13:22 - INFO - New connected socket [id: amrFSGfVahehHUamAAAB]
+06/06/2022, 0:13:23 - INFO - Server is running on port: 3030
+06/06/2022, 0:13:24 - INFO - New connected socket [id: qH5yM3kTsOPxxPPSAAAB]
+06/06/2022, 0:20:13 - INFO - Server is running on port: 3030
+06/06/2022, 0:20:15 - INFO - New connected socket [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:17 - INFO - Req was made
+06/06/2022, 0:24:17 - DEBUG - Getting Boards
+06/06/2022, 0:24:18 - INFO - Socket is joining topic 629b13f5dbd97c0cf1344429 [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:18 - INFO - Req was made
+06/06/2022, 0:24:18 - DEBUG - Getting Boards
+06/06/2022, 0:24:19 - INFO - Req was made
+06/06/2022, 0:24:19 - DEBUG - Getting Boards
+06/06/2022, 0:24:20 - INFO - Req was made
+06/06/2022, 0:24:20 - DEBUG - Getting Boards
+06/06/2022, 0:24:20 - INFO - Socket is leaving topic 629b13f5dbd97c0cf1344429 [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:20 - INFO - Socket is joining topic 629a66a0fd7a4ef699e1a5d8 [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:20 - INFO - Req was made
+06/06/2022, 0:24:20 - DEBUG - Getting Boards
+06/06/2022, 0:24:21 - INFO - Req was made
+06/06/2022, 0:24:21 - DEBUG - Getting Boards
+06/06/2022, 0:24:21 - INFO - Req was made
+06/06/2022, 0:24:21 - DEBUG - Getting Boards
+06/06/2022, 0:24:23 - INFO - Req was made
+06/06/2022, 0:24:23 - DEBUG - Getting Boards
+06/06/2022, 0:24:23 - INFO - Socket is leaving topic 629a66a0fd7a4ef699e1a5d8 [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:23 - INFO - Socket is joining topic 629b11e4dbd97c0cf1344428 [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:24 - INFO - Req was made
+06/06/2022, 0:24:24 - DEBUG - Getting Boards
+06/06/2022, 0:24:25 - INFO - Req was made
+06/06/2022, 0:24:25 - DEBUG - Getting Boards
+06/06/2022, 0:24:26 - INFO - Req was made
+06/06/2022, 0:24:26 - DEBUG - Getting Boards
+06/06/2022, 0:24:27 - INFO - Req was made
+06/06/2022, 0:24:27 - DEBUG - Getting Boards
+06/06/2022, 0:24:27 - INFO - Socket is leaving topic 629b11e4dbd97c0cf1344428 [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:27 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: A_vl2eR3hBjUA1eJAAAB]
+06/06/2022, 0:24:30 - INFO - Req was made
+06/06/2022, 0:24:30 - DEBUG - Getting Boards
+06/06/2022, 0:24:30 - INFO - Req was made
+06/06/2022, 0:24:30 - DEBUG - Getting Boards
+06/06/2022, 0:26:33 - INFO - Req was made
+06/06/2022, 0:26:33 - DEBUG - Getting Boards
+06/06/2022, 0:27:02 - INFO - Req was made
+06/06/2022, 0:27:02 - DEBUG - Getting Boards
+06/06/2022, 0:27:06 - INFO - Req was made
+06/06/2022, 0:27:06 - DEBUG - Getting Boards
