@@ -4152,3 +4152,302 @@
 6/3/2022, 9:57:04 PM - DEBUG - Getting Boards
 6/3/2022, 9:57:07 PM - INFO - Req was made
 6/3/2022, 9:57:07 PM - DEBUG - Getting Boards
+05/06/2022, 11:54:16 - INFO - New connected socket [id: jAc6MEYcsrLESHQFAAAD]
+05/06/2022, 11:54:16 - INFO - Setting socket.userId = 6297d839e6518f210497018a for socket [id: jAc6MEYcsrLESHQFAAAD]
+05/06/2022, 11:54:17 - INFO - Req was made
+05/06/2022, 11:54:17 - DEBUG - Getting Boards
+05/06/2022, 11:54:17 - INFO - Socket is joining topic 629a66a0fd7a4ef699e1a5d8 [id: jAc6MEYcsrLESHQFAAAD]
+05/06/2022, 11:55:35 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:07:04 - INFO - Req was made
+05/06/2022, 12:07:04 - DEBUG - Getting Boards
+05/06/2022, 12:07:04 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: udCJ3vhusnTQowkSAAAB]
+05/06/2022, 12:07:13 - INFO - Req was made
+05/06/2022, 12:07:13 - DEBUG - Getting Boards
+05/06/2022, 12:13:54 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:13:55 - INFO - New connected socket [id: PVhIVgEZTM3ZjYcRAAAF]
+05/06/2022, 12:13:55 - INFO - Req was made
+05/06/2022, 12:13:55 - DEBUG - Getting Boards
+05/06/2022, 12:13:55 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: PVhIVgEZTM3ZjYcRAAAF]
+05/06/2022, 12:13:55 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: PVhIVgEZTM3ZjYcRAAAF]
+05/06/2022, 12:30:05 - INFO - Req was made
+05/06/2022, 12:30:05 - DEBUG - Getting Boards
+05/06/2022, 12:30:05 - INFO - Req was made
+05/06/2022, 12:30:05 - DEBUG - Getting Boards
+05/06/2022, 12:30:07 - INFO - Req was made
+05/06/2022, 12:30:07 - DEBUG - Getting Boards
+05/06/2022, 12:30:08 - INFO - Socket is leaving topic 629a049a6aa9e44f18fbc43f [id: PVhIVgEZTM3ZjYcRAAAF]
+05/06/2022, 12:30:08 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: PVhIVgEZTM3ZjYcRAAAF]
+05/06/2022, 12:30:08 - INFO - Req was made
+05/06/2022, 12:30:08 - DEBUG - Getting Boards
+05/06/2022, 12:30:12 - DEBUG - socket.on - pull board
+05/06/2022, 12:30:12 - INFO - Broadcasting event: board update
+05/06/2022, 12:30:12 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 12:30:14 - DEBUG - socket.on - pull board
+05/06/2022, 12:30:14 - INFO - Broadcasting event: board update
+05/06/2022, 12:30:14 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 12:30:24 - DEBUG - socket.on - pull board
+05/06/2022, 12:30:24 - INFO - Broadcasting event: board update
+05/06/2022, 12:30:24 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 12:30:25 - DEBUG - socket.on - pull board
+05/06/2022, 12:30:25 - INFO - Broadcasting event: board update
+05/06/2022, 12:30:25 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 12:30:25 - DEBUG - socket.on - pull board
+05/06/2022, 12:30:25 - INFO - Broadcasting event: board update
+05/06/2022, 12:30:25 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 12:30:35 - INFO - Req was made
+05/06/2022, 12:30:35 - DEBUG - Getting Boards
+05/06/2022, 12:30:35 - DEBUG - socket.on - pull board
+05/06/2022, 12:30:35 - INFO - Broadcasting event: board update
+05/06/2022, 12:30:35 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 12:30:35 - INFO - Req was made
+05/06/2022, 12:30:35 - DEBUG - Getting Boards
+05/06/2022, 12:30:36 - DEBUG - socket.on - pull board
+05/06/2022, 12:30:36 - INFO - Broadcasting event: board update
+05/06/2022, 12:30:36 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 12:38:54 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:38:55 - INFO - New connected socket [id: 72Yw7I0e-MYKY6AQAAAH]
+05/06/2022, 12:38:55 - INFO - Req was made
+05/06/2022, 12:38:55 - DEBUG - Getting Boards
+05/06/2022, 12:38:55 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: 72Yw7I0e-MYKY6AQAAAH]
+05/06/2022, 12:38:55 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: 72Yw7I0e-MYKY6AQAAAH]
+05/06/2022, 12:39:32 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:39:33 - INFO - New connected socket [id: A35kzA03I8hTEXqJAAAJ]
+05/06/2022, 12:39:33 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: A35kzA03I8hTEXqJAAAJ]
+05/06/2022, 12:39:33 - INFO - Req was made
+05/06/2022, 12:39:33 - DEBUG - Getting Boards
+05/06/2022, 12:39:33 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: A35kzA03I8hTEXqJAAAJ]
+05/06/2022, 12:42:31 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:42:31 - INFO - New connected socket [id: yR_FyKZqqgx9BiZbAAAL]
+05/06/2022, 12:42:31 - INFO - Req was made
+05/06/2022, 12:42:31 - DEBUG - Getting Boards
+05/06/2022, 12:42:31 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: yR_FyKZqqgx9BiZbAAAL]
+05/06/2022, 12:42:31 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: yR_FyKZqqgx9BiZbAAAL]
+05/06/2022, 12:46:01 - INFO - Req was made
+05/06/2022, 12:46:01 - DEBUG - Getting Boards
+05/06/2022, 12:46:01 - INFO - Req was made
+05/06/2022, 12:46:01 - DEBUG - Getting Boards
+05/06/2022, 12:48:25 - INFO - Server is running on port: 3030
+05/06/2022, 12:48:25 - INFO - New connected socket [id: Po0Fr_m1EuoutDB7AAAB]
+05/06/2022, 12:48:31 - INFO - Server is running on port: 3030
+05/06/2022, 12:48:32 - INFO - New connected socket [id: 9h40_kmVP9RkVqTVAAAB]
+05/06/2022, 12:49:23 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:49:23 - INFO - New connected socket [id: ztWt4VsD1ap4HoqdAAAD]
+05/06/2022, 12:49:23 - INFO - Req was made
+05/06/2022, 12:49:23 - DEBUG - Getting Boards
+05/06/2022, 12:49:24 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: ztWt4VsD1ap4HoqdAAAD]
+05/06/2022, 12:49:25 - INFO - Req was made
+05/06/2022, 12:49:25 - DEBUG - Getting Boards
+05/06/2022, 12:50:02 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:50:03 - INFO - New connected socket [id: 8vUUmiPsoKFe9z4lAAAF]
+05/06/2022, 12:50:03 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: 8vUUmiPsoKFe9z4lAAAF]
+05/06/2022, 12:52:32 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 12:52:32 - INFO - New connected socket [id: icU_nBkdLxPmB1U0AAAH]
+05/06/2022, 12:52:32 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: icU_nBkdLxPmB1U0AAAH]
+05/06/2022, 13:01:03 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:01:03 - INFO - New connected socket [id: HCcGtUVUS6mWGhT6AAAJ]
+05/06/2022, 13:01:04 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: HCcGtUVUS6mWGhT6AAAJ]
+05/06/2022, 13:01:36 - INFO - Req was made
+05/06/2022, 13:01:36 - DEBUG - Getting Boards
+05/06/2022, 13:01:37 - INFO - Req was made
+05/06/2022, 13:01:37 - DEBUG - Getting Boards
+05/06/2022, 13:04:23 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:04:23 - INFO - New connected socket [id: AjwFvwRLijoYlxA1AAAL]
+05/06/2022, 13:04:23 - INFO - Req was made
+05/06/2022, 13:04:23 - DEBUG - Getting Boards
+05/06/2022, 13:04:24 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: AjwFvwRLijoYlxA1AAAL]
+05/06/2022, 13:04:24 - INFO - Req was made
+05/06/2022, 13:04:24 - DEBUG - Getting Boards
+05/06/2022, 13:06:51 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:06:51 - INFO - New connected socket [id: Z98SHBV_9-Ozp8ZaAAAN]
+05/06/2022, 13:06:51 - INFO - Req was made
+05/06/2022, 13:06:51 - DEBUG - Getting Boards
+05/06/2022, 13:06:51 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: Z98SHBV_9-Ozp8ZaAAAN]
+05/06/2022, 13:06:52 - INFO - Req was made
+05/06/2022, 13:06:52 - DEBUG - Getting Boards
+05/06/2022, 13:09:33 - INFO - Req was made
+05/06/2022, 13:09:33 - DEBUG - Getting Boards
+05/06/2022, 13:09:33 - INFO - Socket is joining topic 629b13f5dbd97c0cf1344429 [id: Z98SHBV_9-Ozp8ZaAAAN]
+05/06/2022, 13:09:34 - INFO - Req was made
+05/06/2022, 13:09:34 - DEBUG - Getting Boards
+05/06/2022, 13:09:34 - INFO - Req was made
+05/06/2022, 13:09:34 - DEBUG - Getting Boards
+05/06/2022, 13:09:35 - INFO - Req was made
+05/06/2022, 13:09:35 - DEBUG - Getting Boards
+05/06/2022, 13:09:35 - INFO - Socket is leaving topic 629b13f5dbd97c0cf1344429 [id: Z98SHBV_9-Ozp8ZaAAAN]
+05/06/2022, 13:09:35 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: Z98SHBV_9-Ozp8ZaAAAN]
+05/06/2022, 13:13:41 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:13:41 - INFO - New connected socket [id: XF5Agili40S7p-VkAAAP]
+05/06/2022, 13:13:42 - INFO - Req was made
+05/06/2022, 13:13:42 - DEBUG - Getting Boards
+05/06/2022, 13:13:42 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: XF5Agili40S7p-VkAAAP]
+05/06/2022, 13:13:42 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: XF5Agili40S7p-VkAAAP]
+05/06/2022, 13:13:53 - DEBUG - socket.on - pull board
+05/06/2022, 13:13:53 - INFO - Broadcasting event: board update
+05/06/2022, 13:13:53 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:13:56 - DEBUG - socket.on - pull board
+05/06/2022, 13:13:56 - INFO - Broadcasting event: board update
+05/06/2022, 13:13:56 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:14:12 - DEBUG - socket.on - pull board
+05/06/2022, 13:14:12 - INFO - Broadcasting event: board update
+05/06/2022, 13:14:12 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:14:12 - DEBUG - socket.on - pull board
+05/06/2022, 13:14:12 - INFO - Broadcasting event: board update
+05/06/2022, 13:14:12 - INFO - Broadcast to room 629b0b32dbd97c0cf1344427 excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:31:07 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:31:08 - INFO - New connected socket [id: j3WMeAWZMm21Ng0fAAAR]
+05/06/2022, 13:31:08 - INFO - Req was made
+05/06/2022, 13:31:08 - DEBUG - Getting Boards
+05/06/2022, 13:31:08 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: j3WMeAWZMm21Ng0fAAAR]
+05/06/2022, 13:31:08 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: j3WMeAWZMm21Ng0fAAAR]
+05/06/2022, 13:35:06 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:35:07 - INFO - New connected socket [id: JUbgDqUgRmres7LdAAAT]
+05/06/2022, 13:35:07 - INFO - Req was made
+05/06/2022, 13:35:07 - DEBUG - Getting Boards
+05/06/2022, 13:35:07 - INFO - Socket is joining topic 629b0b32dbd97c0cf1344427 [id: JUbgDqUgRmres7LdAAAT]
+05/06/2022, 13:35:07 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: JUbgDqUgRmres7LdAAAT]
+05/06/2022, 13:35:10 - INFO - Req was made
+05/06/2022, 13:35:10 - DEBUG - Getting Boards
+05/06/2022, 13:35:10 - INFO - Req was made
+05/06/2022, 13:35:10 - DEBUG - Getting Boards
+05/06/2022, 13:35:12 - INFO - Req was made
+05/06/2022, 13:35:12 - DEBUG - Getting Boards
+05/06/2022, 13:35:13 - INFO - Socket is leaving topic 629b0b32dbd97c0cf1344427 [id: JUbgDqUgRmres7LdAAAT]
+05/06/2022, 13:35:13 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: JUbgDqUgRmres7LdAAAT]
+05/06/2022, 13:35:13 - INFO - Req was made
+05/06/2022, 13:35:13 - DEBUG - Getting Boards
+05/06/2022, 13:35:22 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:35:22 - INFO - New connected socket [id: xKDFqIkD_OT7T1_RAAAV]
+05/06/2022, 13:35:23 - INFO - Req was made
+05/06/2022, 13:35:23 - DEBUG - Getting Boards
+05/06/2022, 13:35:23 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: xKDFqIkD_OT7T1_RAAAV]
+05/06/2022, 13:35:23 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: xKDFqIkD_OT7T1_RAAAV]
+05/06/2022, 13:35:31 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:31 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:31 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:33 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:33 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:33 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:33 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:33 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:33 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:36 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:35:36 - INFO - New connected socket [id: A6siAIy2F14rsKySAAAX]
+05/06/2022, 13:35:37 - INFO - Req was made
+05/06/2022, 13:35:37 - DEBUG - Getting Boards
+05/06/2022, 13:35:37 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: A6siAIy2F14rsKySAAAX]
+05/06/2022, 13:35:37 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: A6siAIy2F14rsKySAAAX]
+05/06/2022, 13:35:39 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:39 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:39 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:40 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:40 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:40 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:41 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:41 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:41 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:41 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:41 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:41 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:42 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:42 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:42 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:43 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:43 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:43 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:35:43 - DEBUG - socket.on - pull board
+05/06/2022, 13:35:43 - INFO - Broadcasting event: board update
+05/06/2022, 13:35:43 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:36:04 - DEBUG - socket.on - pull board
+05/06/2022, 13:36:04 - INFO - Broadcasting event: board update
+05/06/2022, 13:36:04 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:36:05 - DEBUG - socket.on - pull board
+05/06/2022, 13:36:05 - INFO - Broadcasting event: board update
+05/06/2022, 13:36:05 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:36:10 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:36:10 - INFO - New connected socket [id: WlYJGuQ8Eirpvn1BAAAZ]
+05/06/2022, 13:36:11 - INFO - Req was made
+05/06/2022, 13:36:11 - DEBUG - Getting Boards
+05/06/2022, 13:36:11 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: WlYJGuQ8Eirpvn1BAAAZ]
+05/06/2022, 13:36:11 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: WlYJGuQ8Eirpvn1BAAAZ]
+05/06/2022, 13:37:07 - DEBUG - socket.on - pull board
+05/06/2022, 13:37:07 - INFO - Broadcasting event: board update
+05/06/2022, 13:37:07 - INFO - Broadcast to room 629a049a6aa9e44f18fbc43f excluding user: gRrDpRYBaLeMOrte4mfQF
+05/06/2022, 13:46:13 - INFO - Req was made
+05/06/2022, 13:46:13 - DEBUG - Getting Boards
+05/06/2022, 13:46:21 - INFO - Req was made
+05/06/2022, 13:46:21 - DEBUG - Getting Boards
+05/06/2022, 13:46:51 - INFO - New connected socket [id: hcegz7AGgByIvul3AAAb]
+05/06/2022, 13:46:51 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: hcegz7AGgByIvul3AAAb]
+05/06/2022, 13:46:52 - INFO - Req was made
+05/06/2022, 13:46:52 - DEBUG - Getting Boards
+05/06/2022, 13:46:52 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: hcegz7AGgByIvul3AAAb]
+05/06/2022, 13:46:52 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: hcegz7AGgByIvul3AAAb]
+05/06/2022, 13:47:43 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:47:43 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:47:43 - INFO - New connected socket [id: yDEexkLP4jszWPVZAAAd]
+05/06/2022, 13:47:44 - INFO - Req was made
+05/06/2022, 13:47:44 - DEBUG - Getting Boards
+05/06/2022, 13:47:44 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: yDEexkLP4jszWPVZAAAd]
+05/06/2022, 13:47:44 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: yDEexkLP4jszWPVZAAAd]
+05/06/2022, 13:47:57 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:47:57 - INFO - New connected socket [id: Be7C-_QvbkzBqL0IAAAf]
+05/06/2022, 13:47:57 - INFO - Req was made
+05/06/2022, 13:47:57 - DEBUG - Getting Boards
+05/06/2022, 13:47:57 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: Be7C-_QvbkzBqL0IAAAf]
+05/06/2022, 13:47:57 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: Be7C-_QvbkzBqL0IAAAf]
+05/06/2022, 13:48:18 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:48:18 - INFO - New connected socket [id: eTZZyLG_fgWlEX_SAAAh]
+05/06/2022, 13:48:18 - INFO - Req was made
+05/06/2022, 13:48:18 - DEBUG - Getting Boards
+05/06/2022, 13:48:18 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: eTZZyLG_fgWlEX_SAAAh]
+05/06/2022, 13:48:19 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: eTZZyLG_fgWlEX_SAAAh]
+05/06/2022, 13:48:54 - INFO - New connected socket [id: qY4caBQn-r9jq4TjAAAj]
+05/06/2022, 13:48:54 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: qY4caBQn-r9jq4TjAAAj]
+05/06/2022, 13:48:55 - INFO - Req was made
+05/06/2022, 13:48:55 - DEBUG - Getting Boards
+05/06/2022, 13:48:55 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: qY4caBQn-r9jq4TjAAAj]
+05/06/2022, 13:48:56 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: qY4caBQn-r9jq4TjAAAj]
+05/06/2022, 13:48:57 - INFO - New connected socket [id: z73487VlzaFhGyCUAAAl]
+05/06/2022, 13:48:57 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: z73487VlzaFhGyCUAAAl]
+05/06/2022, 13:48:58 - INFO - Req was made
+05/06/2022, 13:48:58 - DEBUG - Getting Boards
+05/06/2022, 13:48:58 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: z73487VlzaFhGyCUAAAl]
+05/06/2022, 13:48:58 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: z73487VlzaFhGyCUAAAl]
+05/06/2022, 13:49:01 - INFO - New connected socket [id: n2qLxSUe0GBrAzi1AAAn]
+05/06/2022, 13:49:01 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: n2qLxSUe0GBrAzi1AAAn]
+05/06/2022, 13:49:02 - INFO - Req was made
+05/06/2022, 13:49:02 - DEBUG - Getting Boards
+05/06/2022, 13:49:02 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: n2qLxSUe0GBrAzi1AAAn]
+05/06/2022, 13:49:02 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: n2qLxSUe0GBrAzi1AAAn]
+05/06/2022, 13:49:53 - INFO - Req was made
+05/06/2022, 13:49:53 - DEBUG - Getting Boards
+05/06/2022, 13:49:56 - INFO - New connected socket [id: 8UNOY1XO3gR6yHHHAAAp]
+05/06/2022, 13:49:56 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: 8UNOY1XO3gR6yHHHAAAp]
+05/06/2022, 13:49:57 - INFO - Req was made
+05/06/2022, 13:49:57 - DEBUG - Getting Boards
+05/06/2022, 13:49:57 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: 8UNOY1XO3gR6yHHHAAAp]
+05/06/2022, 13:49:57 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: 8UNOY1XO3gR6yHHHAAAp]
+05/06/2022, 13:50:15 - INFO - Req was made
+05/06/2022, 13:50:15 - DEBUG - Getting Boards
+05/06/2022, 13:50:59 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:50:59 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:50:59 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:50:59 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:50:59 - INFO - Socket disconnected [id: undefined]
+05/06/2022, 13:50:59 - INFO - New connected socket [id: vuGwIhMHApOELb_OAAAr]
+05/06/2022, 13:51:00 - INFO - Req was made
+05/06/2022, 13:51:00 - DEBUG - Getting Boards
+05/06/2022, 13:51:00 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: vuGwIhMHApOELb_OAAAr]
+05/06/2022, 13:51:00 - INFO - Setting socket.userId = gRrDpRYBaLeMOrte4mfQF for socket [id: vuGwIhMHApOELb_OAAAr]
+05/06/2022, 13:51:04 - INFO - Req was made
+05/06/2022, 13:51:04 - DEBUG - Getting Boards
+05/06/2022, 13:51:05 - INFO - Req was made
+05/06/2022, 13:51:05 - DEBUG - Getting Boards
+05/06/2022, 13:51:07 - INFO - Req was made
+05/06/2022, 13:51:07 - DEBUG - Getting Boards
+05/06/2022, 13:52:11 - INFO - Req was made
+05/06/2022, 13:52:11 - DEBUG - Getting Boards
+05/06/2022, 13:53:07 - INFO - Req was made
+05/06/2022, 13:53:07 - DEBUG - Getting Boards
+05/06/2022, 13:53:18 - INFO - Req was made
+05/06/2022, 13:53:18 - DEBUG - Getting Boards
