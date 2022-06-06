@@ -3,14 +3,14 @@
   "name": "Prello",
   "icons": [
     {
-      "src": "logo_20x20.png",
-      "sizes": "20x20",
+      "src": "Prello_logo_25.png",
+      "sizes": "25x25",
       "type": "image/png"
     },
     {
-      "src": "logo_20x20.png",
+      "src": "Prello_logo_25.png",
       "type": "image/png",
-      "sizes": "20x20"
+      "sizes": "25x25"
     }
   ],
   "start_url": ".",
