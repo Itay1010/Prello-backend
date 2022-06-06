@@ -4611,3 +4611,29 @@
 06/06/2022, 0:27:02 - DEBUG - Getting Boards
 06/06/2022, 0:27:06 - INFO - Req was made
 06/06/2022, 0:27:06 - DEBUG - Getting Boards
+06/06/2022, 23:57:22 - INFO - Server is running on port: 3030
+06/06/2022, 23:57:22 - INFO - New connected socket [id: 9psFX3lHj3X2qljwAAAB]
+06/06/2022, 23:57:34 - INFO - Socket disconnected [id: undefined]
+06/06/2022, 23:57:35 - INFO - New connected socket [id: vRCp8O5k9g0oQyWGAAAD]
+06/06/2022, 23:57:35 - INFO - Req was made
+06/06/2022, 23:57:35 - DEBUG - Getting Boards
+06/06/2022, 23:57:35 - INFO - Setting socket.userId = gzWzvV7Xv32SWU6SnjVvz for socket [id: vRCp8O5k9g0oQyWGAAAD]
+06/06/2022, 23:57:35 - INFO - Setting socket.userId = gzWzvV7Xv32SWU6SnjVvz for socket [id: vRCp8O5k9g0oQyWGAAAD]
+06/06/2022, 23:57:37 - INFO - Req was made
+06/06/2022, 23:57:37 - DEBUG - Getting Boards
+06/06/2022, 23:57:39 - INFO - Req was made
+06/06/2022, 23:57:39 - DEBUG - Getting Boards
+06/06/2022, 23:57:39 - INFO - Socket is joining topic 629a66a0fd7a4ef699e1a5d8 [id: vRCp8O5k9g0oQyWGAAAD]
+06/06/2022, 23:57:43 - DEBUG - socket.on - pull board
+06/06/2022, 23:57:43 - INFO - Broadcasting event: board update
+06/06/2022, 23:57:43 - INFO - Broadcast to room 629a66a0fd7a4ef699e1a5d8 excluding user: gzWzvV7Xv32SWU6SnjVvz
+06/06/2022, 23:57:48 - DEBUG - socket.on - pull board
+06/06/2022, 23:57:48 - INFO - Broadcasting event: board update
+06/06/2022, 23:57:48 - INFO - Broadcast to room 629a66a0fd7a4ef699e1a5d8 excluding user: gzWzvV7Xv32SWU6SnjVvz
+06/06/2022, 23:57:50 - DEBUG - socket.on - pull board
+06/06/2022, 23:57:50 - INFO - Broadcasting event: board update
+06/06/2022, 23:57:50 - INFO - Broadcast to room 629a66a0fd7a4ef699e1a5d8 excluding user: gzWzvV7Xv32SWU6SnjVvz
+06/06/2022, 23:57:51 - INFO - Req was made
+06/06/2022, 23:57:51 - DEBUG - Getting Boards
+06/06/2022, 23:57:52 - INFO - Req was made
+06/06/2022, 23:57:52 - DEBUG - Getting Boards
