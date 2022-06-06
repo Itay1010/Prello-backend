@@ -3,7 +3,6 @@ const cookieParser = require('cookie-parser')
 const cors = require('cors')
 const path = require('path')
 
-const asyncLocalStorage = require('./services/als.service')
 const app = express()
 const http = require('http').createServer(app)
 
@@ -42,10 +41,11 @@ app.use('/api/workspace', workspaceRoutes)
 setupSocketAPI(http)
 
 app.get('/**', (req, res) => {
-    res.sendFile(path.join(__dirname + 'public' + 'index.html'))
+    res.sendFile(path.join(__dirname + '/public' + '/index.html'))
 })
 
 const logger = require('./services/logger.service')
+const asyncLocalStorage = require('./services/als.service')
 const port = process.env.PORT || 3030
 http.listen(port, () => {
     logger.info('Server is running on port: ' + port)
