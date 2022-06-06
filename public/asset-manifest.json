@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5448cd63.css",
+    "main.css": "/static/css/main.9cc965de.css",
     "main.js": "/static/js/main.d3f72910.js",
     "static/media/Nunito.ttf": "/static/media/Nunito.ba12192be420666fc588.ttf",
     "static/media/board-sample.png": "/static/media/board-sample.838da3a80768d3e2d177.png",
@@ -14,11 +14,11 @@
     "static/media/SegoeUI.ttf": "/static/media/SegoeUI.45472284dc36b2486ce2.ttf",
     "index.html": "/index.html",
     "static/media/add.svg": "/static/media/add.9b575a3c22f8522650a4.svg",
-    "main.5448cd63.css.map": "/static/css/main.5448cd63.css.map",
+    "main.9cc965de.css.map": "/static/css/main.9cc965de.css.map",
     "main.d3f72910.js.map": "/static/js/main.d3f72910.js.map"
   },
   "entrypoints": [
-    "static/css/main.5448cd63.css",
+    "static/css/main.9cc965de.css",
     "static/js/main.d3f72910.js"
   ]
 }
