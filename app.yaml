@@ -1,0 +1,9 @@
+runtime: nodejs16
+
+env_variables:
+  NODE_ENV: "production"
+  dbURL: "mongodb+srv://eytan133:BGcgaBcQErJWgs2R@cluster0.lrvjw.mongodb.net/?retryWrites=true&w=majority"
+
+handlers:
+  - url: /.*
+    script: auto

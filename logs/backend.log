@@ -4637,3 +4637,60 @@
 06/06/2022, 23:57:51 - DEBUG - Getting Boards
 06/06/2022, 23:57:52 - INFO - Req was made
 06/06/2022, 23:57:52 - DEBUG - Getting Boards
+08/06/2022, 12:41:11 - INFO - Server is running on port: 3030
+08/06/2022, 12:41:11 - INFO - New connected socket [id: aZoaYnW9-EKGKE63AAAB]
+08/06/2022, 12:43:02 - INFO - Req was made
+08/06/2022, 12:43:02 - DEBUG - Getting Boards
+08/06/2022, 12:43:04 - INFO - Socket disconnected [id: undefined]
+08/06/2022, 12:43:04 - INFO - New connected socket [id: L4HRBukprkVZayC7AAAD]
+08/06/2022, 12:43:04 - INFO - Setting socket.userId = gex7xk9zU43reAUbXINkn for socket [id: L4HRBukprkVZayC7AAAD]
+08/06/2022, 12:43:05 - INFO - Setting socket.userId = gex7xk9zU43reAUbXINkn for socket [id: L4HRBukprkVZayC7AAAD]
+08/06/2022, 13:01:48 - INFO - New connected socket [id: iZgmj6iJiCA2WZlQAAAF]
+08/06/2022, 13:01:50 - INFO - Setting socket.userId = gex7xk9zU43reAUbXINkn for socket [id: iZgmj6iJiCA2WZlQAAAF]
+08/06/2022, 13:01:53 - INFO - New connected socket [id: M0FTE32D_NEnz65SAAAH]
+08/06/2022, 13:01:54 - INFO - Setting socket.userId = gex7xk9zU43reAUbXINkn for socket [id: M0FTE32D_NEnz65SAAAH]
+08/06/2022, 14:41:22 - INFO - Req was made
+08/06/2022, 14:41:22 - DEBUG - Getting Boards
+08/06/2022, 14:41:22 - INFO - Req was made
+08/06/2022, 14:41:22 - DEBUG - Getting Boards
+08/06/2022, 14:41:25 - INFO - Req was made
+08/06/2022, 14:41:25 - DEBUG - Getting Boards
+08/06/2022, 14:41:25 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: M0FTE32D_NEnz65SAAAH]
+08/06/2022, 14:41:41 - INFO - Req was made
+08/06/2022, 14:41:41 - DEBUG - Getting Boards
+08/06/2022, 14:41:41 - INFO - Req was made
+08/06/2022, 14:41:41 - DEBUG - Getting Boards
+08/06/2022, 16:31:34 - INFO - Server is running on port: 3030
+08/06/2022, 16:31:35 - INFO - New connected socket [id: ictvDrmc81IbjII9AAAC]
+08/06/2022, 16:31:35 - INFO - New connected socket [id: u1LXsElUKIwMRU-AAAAD]
+08/06/2022, 16:31:36 - INFO - New connected socket [id: zTpMlmDoP4ObPE6mAAAF]
+10/07/2022, 17:06:05 - INFO - Server is running on port: 3030
+10/07/2022, 17:06:42 - INFO - New connected socket [id: -AOYckgXIl7xARpOAAAC]
+10/07/2022, 17:06:42 - INFO - New connected socket [id: wc0w9JzR3QQWnwR6AAAD]
+10/07/2022, 17:06:43 - INFO - Setting socket.userId = gz9ACFFtFTdchFJHxK0oy for socket [id: wc0w9JzR3QQWnwR6AAAD]
+10/07/2022, 17:06:43 - INFO - Setting socket.userId = gmp44hxMTzQMdSD6YwZQq for socket [id: -AOYckgXIl7xARpOAAAC]
+10/07/2022, 17:06:45 - INFO - Req was made
+10/07/2022, 17:06:45 - DEBUG - Getting Boards
+10/07/2022, 17:07:04 - INFO - Req was made
+10/07/2022, 17:07:04 - DEBUG - Getting Boards
+10/07/2022, 17:07:05 - INFO - Req was made
+10/07/2022, 17:07:05 - DEBUG - Getting Boards
+10/07/2022, 17:07:28 - INFO - Req was made
+10/07/2022, 17:07:28 - DEBUG - Getting Boards
+10/07/2022, 17:07:28 - INFO - Socket is joining topic 629a049a6aa9e44f18fbc43f [id: wc0w9JzR3QQWnwR6AAAD]
+10/07/2022, 17:07:31 - INFO - Req was made
+10/07/2022, 17:07:31 - DEBUG - Getting Boards
+10/07/2022, 17:07:33 - INFO - Req was made
+10/07/2022, 17:07:33 - DEBUG - Getting Boards
+10/07/2022, 17:07:35 - INFO - Req was made
+10/07/2022, 17:07:35 - DEBUG - Getting Boards
+10/07/2022, 17:07:37 - INFO - Req was made
+10/07/2022, 17:07:37 - DEBUG - Getting Boards
+10/07/2022, 17:07:37 - INFO - Socket is leaving topic 629a049a6aa9e44f18fbc43f [id: wc0w9JzR3QQWnwR6AAAD]
+10/07/2022, 17:07:37 - INFO - Socket is joining topic 629e5450406ebd00167a948d [id: wc0w9JzR3QQWnwR6AAAD]
+10/07/2022, 17:07:40 - INFO - Req was made
+10/07/2022, 17:07:40 - DEBUG - Getting Boards
+10/07/2022, 17:07:43 - INFO - Socket disconnected [id: undefined]
+10/07/2022, 17:07:44 - INFO - New connected socket [id: KxTJY0wO0Yybdhn-AAAF]
+10/07/2022, 17:07:44 - INFO - Setting socket.userId = gz9ACFFtFTdchFJHxK0oy for socket [id: KxTJY0wO0Yybdhn-AAAF]
+10/07/2022, 17:07:44 - INFO - Setting socket.userId = gz9ACFFtFTdchFJHxK0oy for socket [id: KxTJY0wO0Yybdhn-AAAF]
