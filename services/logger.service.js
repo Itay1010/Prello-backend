@@ -1,10 +1,4 @@
-const fs = require('fs')
-
-
 const logsDir = './logs'
-if (!fs.existsSync(logsDir)) {
-    fs.mkdirSync(logsDir)
-}
 
 //define the time format
 function getTime() {
@@ -17,7 +11,6 @@ function doLog(level, ...args) {
     var line = strs.join(' | ')
     line = `${getTime()} - ${level} - ${line}\n`
     console.log(line)
-    fs.appendFileSync('./logs/backend.log', line)
 }
 
 module.exports = {
